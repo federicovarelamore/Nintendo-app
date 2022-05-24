@@ -37,3 +37,12 @@
 .text-shadow {
   text-shadow: 0 3px 3px rgba(0, 0, 0, 0.7);
 }
+
+.carousel-indicators li {
+  height: 20px !important;
+  width: 20px !important;
+  border-radius: 50% !important;
+  background-color: orangered !important;
+  margin-bottom: 10px !important;
+  text-shadow: 0 3px 3px rgba(0, 0, 0, 1) !important;
+}

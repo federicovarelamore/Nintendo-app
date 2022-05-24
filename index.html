@@ -27,13 +27,13 @@
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toogle navigation">
+                aria-label="Toggle navigation">
 
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="list-unstyled navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Summer Pack</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
@@ -45,6 +45,16 @@
     </nav>
     <!-- CAROUSEL -->
     <div class="carousel slide carousel-fade" id="mainSlider" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators">
+
+            <li data-bs-target="#mainSlider" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1">
+            </li>
+            <li data-bs-target="#mainSlider" data-bs-slide-to="1" aria-label="Slide 2"></li>
+            <li data-bs-target="#mainSlider" data-bs-slide-to="2" aria-label="Slide 3"></li>
+        </ol>
+
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="2500">
                 <img src="/img/slide01.jpg" alt="Animal crossing" class="d-block w-100">
