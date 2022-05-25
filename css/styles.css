@@ -126,3 +126,9 @@
 #separator-amiibos-footer {
   height: 20vw;
 }
+
+#play {
+  background: url(/img/bg-04.png);
+  background-color: rgb(245, 245, 200);
+  background-size: 60px 60px;
+}
