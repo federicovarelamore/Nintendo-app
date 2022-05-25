@@ -1,3 +1,13 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+button,
+.amiibo-name {
+  font-family: "Bitter", sans-serif;
+}
+
 #ribbon {
   background-color: rgb(219, 26, 26);
   background-image: repeating-linear-gradient(
@@ -60,6 +70,11 @@
   margin-left: -25%;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
+}
+
+h3 a {
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .card-border {
@@ -130,5 +145,11 @@
 #play {
   background: url(/img/bg-04.png);
   background-color: rgb(245, 245, 200);
+  background-size: 40px 40px;
+}
+
+#footer {
+  background: url(/img/bg-04.png);
+  background-color: rgb(224, 144, 24);
   background-size: 60px 60px;
 }
